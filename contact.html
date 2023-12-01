@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Website-Contact</title>
+    <link rel="stylesheet" href="contact.css" />
+  </head>
+  <body>
+    <nav>
+      <section id="name">
+        <h1>Urian Sanchez</h1>
+      </section>
+      <section id="links">
+        <a href="home.html">Home</a>
+        <a href="Contact.html">Contact</a>
+        <a href="about.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+      </section>
+    </nav>
+    <main>
+        <h1>Contact Me:</h1>
+
+        <form id="form">
+          <div>
+            <label for="name">Name:</label><br />
+            <input id="name" type="text" name="name" />
+          </div>
+  
+          <div>
+            <label for="email">Email:</label><br />
+            <input id="email" type="email" name="email" />
+          </div>
+          <div>
+            <label for="message">Message:</label><br />
+            <textarea id="message" name="message" rows="6" cols="50"></textarea>
+          </div>
+  
+          <button type="submit" id="submit">Submit</button>
+        </form>
+    </main>
+    <footer>
+      <a href="https://www.linkedin.com/in/urian-sanchez/" target="_blank">
+        <img id="linkedin" src="data:image/png;base64,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" alt="Linkedin" />
+    </footer>
+  </body>
+</html>
