@@ -1,0 +1,38 @@
+nav {
+  position: fixed;
+  left: 0;
+  right: 0;
+  align-items: center;
+  background-color: gray;
+  color: darkgreen;
+  display: flex;
+  height: 5%;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+#name {
+  font-family: cursive;
+  font-size: 20px;
+}
+
+main {
+  background-color: black;
+  box-shadow: 0 0 12px -2px black;
+  color: darkgreen;
+  text-align: center;
+  padding-top: 105px;
+}
+html {
+  background-color: cadetblue;
+}
+
+footer {
+  background-color: gray;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 99%;
+  text-align: center;
+  box-shadow: 0 0 12px -2px black;
+}
