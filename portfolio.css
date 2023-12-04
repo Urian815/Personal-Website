@@ -22,6 +22,7 @@ main {
   color: darkgreen;
   text-align: center;
   padding-top: 105px;
+  padding-bottom: 365px;
 }
 html {
   background-color: cadetblue;
@@ -35,9 +36,6 @@ footer {
   width: 99%;
   text-align: center;
   box-shadow: 0 0 12px -2px black;
-}
-#main2 {
-  text-align: center;
 }
 #linkedin {
   height: 100px !important;
@@ -54,4 +52,14 @@ footer {
 #google {
   height: 100px !important;
   width: 100px !important;
+}
+.Main2 {
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 105px;
+  margin: 0 auto;
+  color: darkgreen;
+  padding-bottom: 655px;
 }

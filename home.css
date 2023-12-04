@@ -16,12 +16,14 @@ nav {
   font-size: 20px;
 }
 
-main {
+.main {
   background-color: black;
   box-shadow: 0 0 12px -2px black;
   color: darkgreen;
   text-align: center;
   padding-top: 105px;
+  display: flex;
+  padding-bottom: 365px;
 }
 html {
   background-color: cadetblue;
