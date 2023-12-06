@@ -1,10 +1,22 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  background-color: cadetblue;
+}
+
+body {
+  height: 100vh;
+}
+
 nav {
   position: fixed;
   left: 0;
   right: 0;
   align-items: center;
   background-color: gray;
-  color: darkgreen;
+  color: limegreen;
   display: flex;
   height: 5%;
   padding: 10px;
@@ -24,9 +36,8 @@ main {
   padding-top: 105px;
   z-index: 100;
   padding-bottom: 365px;
-}
-html {
-  background-color: cadetblue;
+  width: 100%;
+  min-height: 100%;
 }
 
 footer {
@@ -34,11 +45,10 @@ footer {
   padding: 10px;
   position: fixed;
   bottom: 0;
-  width: 99%;
+  width: 100%;
   text-align: center;
   box-shadow: 0 0 12px -2px black;
 }
-#linkedin {
-  height: 100px !important;
-  width: 100px !important;
+footer img {
+  height: 50px;
 }
