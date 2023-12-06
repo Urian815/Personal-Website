@@ -1,14 +1,33 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: cadetblue;
+}
+
+html,
+body {
+  height: 100vh;
+  width: 100%;
+}
+
+body {
+  padding-top: 65px;
+}
+
 nav {
-  position: fixed;
+  position: Fixed;
+  top: 0;
   left: 0;
-  right: 0;
-  align-items: center;
+  height: 65px;
+  width: 100%;
   background-color: gray;
-  color: darkgreen;
-  display: flex;
-  height: 5%;
-  padding: 10px;
-  justify-content: space-between;
+  z-index: 99;
+}
+.links {
+  text-align: right;
 }
 
 #name {
@@ -16,17 +35,23 @@ nav {
   font-size: 20px;
 }
 
-.main {
+.Section1 {
   background-color: black;
-  box-shadow: 0 0 12px -2px black;
-  color: darkgreen;
-  text-align: center;
-  padding-top: 105px;
+  color: cadetblue;
+  position: relative;
   display: flex;
-  padding-bottom: 365px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+  width: 100%;
 }
-html {
-  background-color: cadetblue;
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 footer {
@@ -34,11 +59,20 @@ footer {
   padding: 10px;
   position: fixed;
   bottom: 0;
-  width: 99%;
+  width: 100%;
   text-align: center;
   box-shadow: 0 0 12px -2px black;
 }
-#linkedin {
-  height: 100px !important;
-  width: 100px !important;
+
+footer img {
+  height: 50px;
+}
+section img {
+  height: 200px;
+}
+.name {
+  text-decoration: solid;
+  color: limegreen;
+  font-size: 20px;
+  font-family: cursive;
 }

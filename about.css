@@ -4,10 +4,10 @@ nav {
   right: 0;
   align-items: center;
   background-color: gray;
-  color: darkgreen;
+  color: limegreen;
   display: flex;
   height: 5%;
-  padding: 10px;
+  z-index: 99;
   justify-content: space-between;
 }
 
@@ -16,14 +16,19 @@ nav {
   font-size: 20px;
 }
 
-main {
+section {
   background-color: black;
   box-shadow: 0 0 12px -2px black;
   color: darkgreen;
+  align-items: center;
+  width: 100% !important;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
   text-align: center;
-  padding-top: 105px;
-  padding-bottom: 365px;
 }
+
 html {
   background-color: cadetblue;
 }
@@ -35,8 +40,18 @@ footer {
   width: 99%;
   text-align: center;
   box-shadow: 0 0 12px -2px black;
+  width: 100%;
+  position: fixed;
 }
-#linkedin {
-  height: 100px !important;
-  width: 100px !important;
+footer img {
+  height: 50px;
+}
+
+.main2 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  flex-direction: row;
+  height: 100vh;
 }
